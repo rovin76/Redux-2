@@ -1,10 +1,16 @@
 import "./styles.css";
-
+import Navbar from "./components/Navbar";
+import { Routes, Route } from "react-router-dom";
+import TodoApp from "./pages/TodoApp";
+import CounterApp from "./pages/CounterApp";
 function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<CounterApp />}></Route>
+        <Route path="/todoapp" element={<TodoApp />}></Route>
+      </Routes>
     </div>
   );
 }

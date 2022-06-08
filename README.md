@@ -1,5 +1,14 @@
 # Redux-2
 
+###Jouney :-
+
+- install react-router-dom,redux,react-redux etc
+- create ActionTypes
+- create actions
+- create initial State
+  -create reducer function
+
+###Privous Topic:-
 Redux :-
 
 - Redux is a Predictable state manageent tool. build using flux architecture.
